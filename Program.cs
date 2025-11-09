@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IRepository, InMemoryRepository>();
+builder.Services.AddSingleton<IRepository, LiteDbRepository>();
 
 var app = builder.Build();
 

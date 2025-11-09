@@ -53,3 +53,7 @@ C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/ref/BoxCricket
 /Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.pdb
 /Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.genruntimeconfig.cache
 /Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/ref/BoxCricketBuddy.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/LiteDB.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.csproj.AssemblyReference.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.sourcelink.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCrick.C545B5F2.Up2Date

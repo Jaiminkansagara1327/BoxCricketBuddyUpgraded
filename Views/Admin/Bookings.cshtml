@@ -1,0 +1,43 @@
+@model IEnumerable<BoxCricketBuddy.Models.Booking>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-3">All Bookings</h2>
+
+@if (!Model.Any())
+{
+    <p>No bookings found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Venue ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.Id</td>
+                    <td>@b.VenueId</td>
+                    <td>@b.CustomerName</td>
+                    <td>@b.CustomerEmail</td>
+                    <td>@b.CustomerPhone</td>
+                    <td>@b.StartTime</td>
+                    <td>@b.EndTime</td>
+                    <td>₹@b.Amount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

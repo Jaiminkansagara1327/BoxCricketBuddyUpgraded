@@ -1,0 +1,35 @@
+@model IEnumerable<BoxCricketBuddy.Models.Venue>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-3">Venues (Read-Only)</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Price</th>
+            <th>Images</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var v in Model)
+        {
+            <tr>
+                <td>@v.Id</td>
+                <td>@v.Name</td>
+                <td>@v.City</td>
+                <td>₹@v.Price</td>
+                <td>
+                    @foreach (var img in v.Images)
+                    {
+                        <img src="@img" width="60" style="margin-right:4px;border-radius:4px;" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7I6gSUCP3I=",
+  "dgSpecHash": "L4q17zAlYME=",
   "success": true,
   "projectFilePath": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/BoxCricketBuddy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jaiminkansagara/.nuget/packages/litedb/5.0.21/litedb.5.0.21.nupkg.sha512",
+    "/Users/jaiminkansagara/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

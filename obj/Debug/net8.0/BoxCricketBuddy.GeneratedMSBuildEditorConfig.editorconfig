@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/Views/Admin/Bookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/Views/Admin/Messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/Views/Admin/Venues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVmVudWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

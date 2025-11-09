@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoxCricketBuddy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dd734cccab886fcb72bf43b0e30299c4ad207f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoxCricketBuddy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoxCricketBuddy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

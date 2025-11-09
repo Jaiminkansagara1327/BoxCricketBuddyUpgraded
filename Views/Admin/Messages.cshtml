@@ -1,0 +1,35 @@
+@model IEnumerable<BoxCricketBuddy.Models.ContactMessage>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-3">Contact Messages</h2>
+
+@if (!Model.Any())
+{
+    <p>No messages found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.Id</td>
+                    <td>@m.Name</td>
+                    <td>@m.Email</td>
+                    <td>@m.Message</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
