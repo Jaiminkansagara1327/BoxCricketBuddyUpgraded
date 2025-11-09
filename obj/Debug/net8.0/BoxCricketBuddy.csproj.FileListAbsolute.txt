@@ -1,0 +1,55 @@
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.staticwebassets.runtime.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.staticwebassets.endpoints.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.exe
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.deps.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.runtimeconfig.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.dll
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.pdb
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.AssemblyInfoInputs.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.AssemblyInfo.cs
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.csproj.CoreCompileInputs.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.RazorAssemblyInfo.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.RazorAssemblyInfo.cs
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/scopedcss/bundle/BoxCricketBuddy.styles.css
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.upToDateCheck.txt
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.dll
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/refint/BoxCricketBuddy.dll
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.pdb
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.genruntimeconfig.cache
+C:/Users/nidhi/Downloads/BoxCricketBuddyUpgraded/obj/Debug/net8.0/ref/BoxCricketBuddy.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.staticwebassets.runtime.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.deps.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.runtimeconfig.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/bin/Debug/net8.0/BoxCricketBuddy.pdb
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.AssemblyInfoInputs.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.AssemblyInfo.cs
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.csproj.CoreCompileInputs.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.MvcApplicationPartsAssemblyInfo.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.RazorAssemblyInfo.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.RazorAssemblyInfo.cs
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.build.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.development.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets/msbuild.BoxCricketBuddy.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets/msbuild.build.BoxCricketBuddy.props
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BoxCricketBuddy.props
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BoxCricketBuddy.props
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/scopedcss/bundle/BoxCricketBuddy.styles.css
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/refint/BoxCricketBuddy.dll
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.pdb
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/BoxCricketBuddy.genruntimeconfig.cache
+/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/obj/Debug/net8.0/ref/BoxCricketBuddy.dll

@@ -1,0 +1,24 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="py-5">
+    <h2>Contact Us</h2>
+    @if(TempData["ContactSuccess"] != null){
+        <div class="alert alert-success">@TempData["ContactSuccess"]</div>
+    }
+    <form method="post" action="/Home/Contact">
+        <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" name="Name" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="Email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea name="Message" class="form-control" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+    </form>
+</div>

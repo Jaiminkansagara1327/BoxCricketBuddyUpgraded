@@ -1,0 +1,13 @@
+wwwroot\css\site.css
+wwwroot\images\hero-illustration.png
+wwwroot\images\logo.png
+wwwroot\images\venues\champion1.jpg
+wwwroot\images\venues\champion2.jpg
+wwwroot\images\venues\champion3.jpg
+wwwroot\images\venues\royal1.jpg
+wwwroot\images\venues\royal2.jpg
+wwwroot\images\venues\royal3.jpg
+wwwroot\images\venues\strike1.jpg
+wwwroot\images\venues\strike2.jpg
+wwwroot\images\venues\strike3.jpg
+wwwroot\js\site.js

@@ -1,0 +1,102 @@
+@model IEnumerable<BoxCricketBuddy.Models.Venue>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="hero-section text-white py-5" style="background:linear-gradient(90deg,#1f1f1f 0%, #ff6b35 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <h1 class="display-5 fw-bold">Book Box Cricket Venues Near You</h1>
+                <p class="lead">Search, compare and book box cricket pitches in your city.</p>
+                <div class="mt-4 d-flex gap-2">
+                    <button class="btn btn-light" id="detectLocationBtn">Use My Location</button>
+                    <a href="/Home/Contact" class="btn btn-outline-light">Contact Us</a>
+                </div>
+            </div>
+            @* <div class="col-lg-5 text-end">
+                <img src="/images/hero-illustration.png" alt="hero" style="max-width:320px;"/>
+            </div> *@
+        </div>
+    </div>
+</section>
+
+<div class="search-card mt-4 p-3">
+    <form id="searchForm" method="get" onsubmit="return doSearch();">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label>City</label>
+                <select id="citySelect" name="city" class="form-select">
+                    <option>Rajkot</option>
+                    <option>Ahmedabad</option>
+                    <option>Surat</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label>Pitch Type</label>
+                <select id="pitchType" name="pitchType" class="form-select">
+                    <option value="">Any</option>
+                    <option>Indoor</option>
+                    <option>Outdoor</option>
+                    <option>Semi-covered</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label>Max Price</label>
+                <select id="maxPrice" name="maxPrice" class="form-select">
+                    <option value="">Any</option>
+                    <option value="500">Under 500</option>
+                    <option value="800">Under 800</option>
+                    <option value="1000">Under 1000</option>
+                </select>
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button class="btn btn-primary w-100" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<section class="py-4" id="venues">
+    <h3 class="mt-4">Featured Venues</h3>
+    <div id="venuesContainer" class="row mt-3">
+        @await Html.PartialAsync("_VenueCards", Model)
+    </div>
+</section>
+
+@section Scripts {
+<script>
+    document.getElementById('detectLocationBtn').addEventListener('click', ()=> detectUserCity(true));
+
+    function doSearch(){
+        const city = document.getElementById('citySelect').value;
+        const pitchType = document.getElementById('pitchType').value;
+        const maxPrice = document.getElementById('maxPrice').value;
+
+        fetch(`/Venues/Search?city=${encodeURIComponent(city)}&pitchType=${encodeURIComponent(pitchType)}&maxPrice=${encodeURIComponent(maxPrice)}`)
+            .then(r => r.text())
+            .then(html => { document.getElementById('venuesContainer').innerHTML = html; })
+            .catch(err => console.error(err));
+
+        return false; // prevent normal submit
+    }
+
+    async function detectUserCity(triggerSearch=false){
+        if(!navigator.geolocation){ alert('Geolocation not supported'); return; }
+        navigator.geolocation.getCurrentPosition(async (pos)=>{
+            const lat = pos.coords.latitude;
+            const lon = pos.coords.longitude;
+            // Use Nominatim reverse geocoding (no API key required)
+            try{
+                const resp = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`);
+                const data = await resp.json();
+                const city = data.address.city || data.address.town || data.address.village || data.address.county || data.address.state;
+                if(city){ document.getElementById('citySelect').value = city; if(triggerSearch) doSearch(); }
+            }catch(e){ console.warn('Reverse geocode failed', e); }
+        }, (err)=>{ console.warn(err); alert('Location permission denied or unavailable.'); });
+    }
+
+    // try auto-detect on page load silently
+    window.addEventListener('DOMContentLoaded', ()=> detectUserCity(false));
+</script>
+}

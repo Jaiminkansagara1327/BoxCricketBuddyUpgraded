@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/hero-illustration.png",
+      "PackagePath": "staticwebassets/images/hero-illustration.png"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/champion1.jpg",
+      "PackagePath": "staticwebassets/images/venues/champion1.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/champion2.jpg",
+      "PackagePath": "staticwebassets/images/venues/champion2.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/champion3.jpg",
+      "PackagePath": "staticwebassets/images/venues/champion3.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/royal1.jpg",
+      "PackagePath": "staticwebassets/images/venues/royal1.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/royal2.jpg",
+      "PackagePath": "staticwebassets/images/venues/royal2.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/royal3.jpg",
+      "PackagePath": "staticwebassets/images/venues/royal3.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/strike1.jpg",
+      "PackagePath": "staticwebassets/images/venues/strike1.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/strike2.jpg",
+      "PackagePath": "staticwebassets/images/venues/strike2.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/images/venues/strike3.jpg",
+      "PackagePath": "staticwebassets/images/venues/strike3.jpg"
+    },
+    {
+      "Id": "/Users/jaiminkansagara/Downloads/_net projects/BoxCricketBuddyUpgraded/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BoxCricketBuddy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BoxCricketBuddy.props",
+      "PackagePath": "build\\BoxCricketBuddy.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BoxCricketBuddy.props",
+      "PackagePath": "buildMultiTargeting\\BoxCricketBuddy.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BoxCricketBuddy.props",
+      "PackagePath": "buildTransitive\\BoxCricketBuddy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

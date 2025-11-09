@@ -1,0 +1,22 @@
+@model IEnumerable<BoxCricketBuddy.Models.Venue>
+
+@if (!Model.Any()) {
+    <div class="col-12">No venues found.</div>
+} else {
+    foreach(var v in Model) {
+        <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card venue-card">
+                <img src="@v.Images.FirstOrDefault()" class="card-img-top" alt="@v.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@v.Name <span class="badge bg-warning text-dark ms-2">@v.Rating</span></h5>
+                    <p class="card-text text-muted"><i class="fas fa-map-marker-alt"></i> @v.Address</p>
+                    <p><strong>₹@v.Price</strong>/hour • @v.PitchType</p>
+                    <div class="d-flex justify-content-between">
+                        <a class="btn btn-outline-primary" href="/Venues/Details/@v.Id">View Details</a>
+                        <a class="btn btn-sm btn-light" href="https://www.google.com/maps/search/?api=1&query=@(v.Latitude),@(v.Longitude)" target="_blank">Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
